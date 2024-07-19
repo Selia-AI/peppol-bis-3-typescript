@@ -113,6 +113,10 @@ const invoice: UBLInvoice = {
 - `TaxScheme`
 - `TaxSubtotal`
 
+## Source of Data
+
+The data for this project comes from [Peppol BIS Billing 3.0 UBL Invoice](https://docs.peppol.eu/poacc/billing/3.0/syntax/ubl-invoice/tree/).
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug fixes, or enhancements, please create an issue or submit a pull request.
