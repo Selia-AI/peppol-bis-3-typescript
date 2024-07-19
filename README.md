@@ -2,6 +2,8 @@
 
 This repository contains TypeScript definitions for Peppol BIS Billing 3.0 invoices with detailed TSDoc comments. These types help ensure type safety and provide comprehensive documentation directly in your code editor.
 
+![Alt text](example.png?raw=true "Title")
+
 ## Table of Contents
 
 - [Installation](#installation)
