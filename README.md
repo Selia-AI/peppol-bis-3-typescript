@@ -34,34 +34,34 @@ Here is an example of how to use the types in your code:
 
 ```typescript
 const invoice: UBLInvoice = {
-  customizationID: 'urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0',
-  profileID: 'urn:fdc:peppol.eu:2017:poacc:billing:01:1.0',
-  id: '33445566',
-  issueDate: '2017-11-01',
-  dueDate: '2017-11-01',
-  invoiceTypeCode: '380',
-  documentCurrencyCode: 'EUR',
-  taxTotal: [
+  CustomizationID: 'urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0',
+  ProfileID: 'urn:fdc:peppol.eu:2017:poacc:billing:01:1.0',
+  ID: '33445566',
+  IssueDate: '2017-11-01',
+  DueDate: '2017-11-01',
+  InvoiceTypeCode: '380',
+  DocumentCurrencyCode: 'EUR',
+  TaxTotal: [
     {
-      taxAmount: { value: 486.25, currencyID: 'EUR' },
+      TaxAmount: { Value: 486.25, CurrencyID: 'EUR' },
     },
   ],
-  legalMonetaryTotal: {
-    lineExtensionAmount: { value: 3800.0, currencyID: 'EUR' },
-    taxExclusiveAmount: { value: 3600.0, currencyID: 'EUR' },
-    taxInclusiveAmount: { value: 4500.0, currencyID: 'EUR' },
-    payableAmount: { value: 3500.0, currencyID: 'EUR' },
+  LegalMonetaryTotal: {
+    LineExtensionAmount: { Value: 3800.0, CurrencyID: 'EUR' },
+    TaxExclusiveAmount: { Value: 3600.0, CurrencyID: 'EUR' },
+    TaxInclusiveAmount: { Value: 4500.0, CurrencyID: 'EUR' },
+    PayableAmount: { Value: 3500.0, CurrencyID: 'EUR' },
   },
-  invoiceLine: [
+  InvoiceLine: [
     {
-      id: '12',
-      invoicedQuantity: { value: 100, unitCode: 'C62' },
-      lineExtensionAmount: { value: 2145.00, currencyID: 'EUR' },
-      item: {
-        name: 'Item name',
+      ID: '12',
+      InvoicedQuantity: { Value: 100, UnitCode: 'C62' },
+      LineExtensionAmount: { Value: 2145.00, CurrencyID: 'EUR' },
+      Item: {
+        Name: 'Item name',
       },
-      price: {
-        priceAmount: { value: 23.45, currencyID: 'EUR' },
+      Price: {
+        PriceAmount: { Value: 23.45, CurrencyID: 'EUR' },
       },
     },
   ],
